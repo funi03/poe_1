@@ -18,6 +18,8 @@ class Message {
    private final String content;
    private final String messageHash;
   
+  
+  
     
    
    public Message(String messageID, int messageNumber,String recipient,String content,String messageHash){
@@ -26,6 +28,8 @@ class Message {
        this.recipient = recipient;
        this.content = content;
        this.messageHash = messageHash;
+       
+      
  
    }
    // getters
@@ -73,6 +77,22 @@ class Message {
         System.out.println("Error storing message: " + e.getMessage());
         
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
         
     }
     
